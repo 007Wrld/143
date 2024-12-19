@@ -204,3 +204,33 @@ audio {
     background-color: #ff85c9; /* Lighter pink for hover effect */
     transform: translateY(-3px); /* Lift the button slightly */
 }
+/* Default styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for tablets (600px and up) */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Styles for mobile (480px and up) */
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 5px;
+    }
+    .button {
+        width: 100%;
+    }
+}
+
