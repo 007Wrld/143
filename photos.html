@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <p>"Like a river flows surely to the sea, my heart finds its way to you effortlessly. Loving you isn’t just a choice—it’s the most natural, beautiful thing I’ll ever do."</p>
+
+         <!-- Photos of her -->
+         <div class="photo-gallery">
+            <img src="img/photo1.jpg" alt="Photo 1">
+            <img src="img/photo2.jpg" alt="Photo 2">
+            <img src="img/photo3.jpg" alt="Photo 3">
+            <img src="img/photo4.jpg" alt="Photo 4">
+            <img src="img/photo5.jpg" alt="Photo 5">
+        </div>
+
+        <!-- Audio Player -->
+        <audio id="audio" controls autoplay>
+            <source src="audio/love_song.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Back to Home Button -->
+        <div class="button-container">
+            <a href="index.html" class="back-home-button">Back to Home</a>
+        </div>
+    </div>
+
+    <script>
+        // Optional: Start audio automatically when the page loads
+        const audio = document.getElementById("audio");
+        audio.play();
+    </script>
+</body>
+</html>
